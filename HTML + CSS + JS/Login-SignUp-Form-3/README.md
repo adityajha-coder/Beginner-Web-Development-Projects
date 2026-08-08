@@ -2,6 +2,13 @@
 
 An animated sliding overlay authentication container featuring glassmorphism background design, floating shapes, and smooth panel transitions built with HTML, CSS, and JavaScript.
 
+## Preview
+
+![Login SignUp Form 3 - Sign In View](public/login-form-3a.png)
+![Login SignUp Form 3 - Sign Up View](public/login-form-3b.png)
+
+
+
 ## Features
 
 - Sliding overlay transition between Sign In and Sign Up panels

@@ -2,6 +2,11 @@
 
 A stylish glassmorphism login form built with HTML and CSS.
 
+## Preview
+
+![Login Form Glass Preview](public/login-form-glass.png)
+
+
 ## Features
 
 - Glass-style login card

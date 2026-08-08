@@ -2,6 +2,14 @@
 
 A weather forecast app built with HTML, CSS, and JavaScript using the OpenWeather API.
 
+## Preview
+
+![Weather App Search View](public/weather-app-1.png)
+![Weather App Forecast View](public/weather-app-2.png)
+![Weather App Error View](public/weather-app-3.png)
+
+
+
 ## Features
 
 - Search weather by city name

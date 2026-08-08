@@ -2,6 +2,11 @@
 
 A simple heart particle animation built with HTML, CSS, and JavaScript.
 
+## Preview
+
+![Heart Animation Preview](public/heart-animation.png)
+
+
 ## Features
 
 - Heart icons appear on mouse movement

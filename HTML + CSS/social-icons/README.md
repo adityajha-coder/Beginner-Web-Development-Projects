@@ -2,6 +2,14 @@
 
 A small social media icon layout with hover-friendly styling.
 
+## Preview
+
+![Social Icons Preview 1](public/social-icon-1.png)
+![Social Icons Preview 2](public/social-icon-2.png)
+![Social Icons Preview 3](public/social-icon-3.png)
+![Social Icons Preview 4](public/social-icon-4.png)
+
+
 ## Features
 
 - Google, Instagram, GitHub, and LinkedIn icons

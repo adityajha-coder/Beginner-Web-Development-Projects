@@ -2,6 +2,12 @@
 
 A simple animated text effect built with HTML and CSS.
 
+## Preview
+
+![Text Animation Preview 1](public/text-animation-1.png)
+![Text Animation Preview 2](public/text-animation-2.png)
+
+
 ## Features
 
 - Animated welcome text

@@ -2,6 +2,11 @@
 
 A simple animated search bar UI built with HTML and CSS.
 
+## Preview
+
+![Search Bar Preview](public/search-bar.png)
+
+
 ## Features
 
 - Compact search input

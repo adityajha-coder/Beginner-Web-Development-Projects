@@ -2,6 +2,12 @@
 
 A simple mini web project that counts the number of characters typed into a textarea and shows how many characters are left.
 
+## Preview
+
+![Character Counter Preview](public/text-counter.png)
+
+
+
 ## Features
 
 - Live character counting as you type

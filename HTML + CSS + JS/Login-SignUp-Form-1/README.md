@@ -2,6 +2,12 @@
 
 A modern authentication interface built with HTML, CSS, and JavaScript.
 
+## Preview
+
+![Login SignUp Form 1 Preview](public/login-form-1.png)
+
+
+
 ## Features
 
 - Toggle between Login, Sign Up, and Password Reset forms

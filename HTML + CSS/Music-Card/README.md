@@ -2,6 +2,11 @@
 
 A Spotify-inspired music player card UI built with HTML and CSS.
 
+## Preview
+
+![Music Card Preview](public/music-card.png)
+
+
 ## Features
 
 - Album-style card layout

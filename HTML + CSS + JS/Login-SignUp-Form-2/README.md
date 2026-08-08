@@ -2,6 +2,13 @@
 
 An animated login and registration interface featuring frosted glass styling and smooth sliding form transitions.
 
+## Preview
+
+![Login SignUp Form 2 - Login View](public/login-form-2a.png)
+![Login SignUp Form 2 - Registration View](public/login-form-2b.png)
+
+
+
 ## Features
 
 - Sliding form transition between Login and Registration

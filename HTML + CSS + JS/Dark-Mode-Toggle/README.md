@@ -2,6 +2,13 @@
 
 A small UI project that switches the page between light and dark mode.
 
+## Preview
+
+![Dark Mode Toggle Light](public/toggle-1.png)
+![Dark Mode Toggle Dark](public/toggle-2.png)
+
+
+
 ## Features
 
 - Toggle between light and dark themes

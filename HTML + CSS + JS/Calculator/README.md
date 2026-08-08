@@ -2,6 +2,11 @@
 
 A simple calculator built with HTML, CSS, and JavaScript.
 
+## Preview
+
+![Calculator Preview](public/calculator.png)
+
+
 ## Features
 
 - Basic arithmetic operations
