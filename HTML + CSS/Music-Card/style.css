@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background: #000;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.blurred{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    filter: blur(100px);
+}
+
+.blurred img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card{
+    position: relative;
+    width: 90%;
+    max-width: 330px;
+    height: 90vh;
+    max-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 15px 25px;
+    color: #fff;
+}
+
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.header p{
+    font-size: 10px;
+    opacity: 0.9;
+}
+
+.header span{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.body{
+    width: 100%;
+}
+
+.body .image{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.body .image img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.song{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.description{
+    width: 85%;
+    position: relative;
+    overflow: hidden;
+}
+
+.description p{
+    font-weight: 500;
+    white-space: nowrap;
+    animation: rightToLeft linear infinite 6s;
+}
+
+.description span{
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.liked svg{
+    fill: #1fdf64;
+    height: 20px;
+    width: 20px;
+}
+
+.audio{
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.track{
+    width: 100%;
+    height: 5px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 2px;
+    position: relative;
+}
+
+.track::before{
+    content: attr(data-start);
+    position: absolute;
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+.track::after{
+    content: attr(data-end);
+    position: absolute;
+    font-size: 10px;
+    right: 0;
+    margin-top: 6px;
+}
+
+.slider{
+    position: relative;
+    bottom: -30%;
+    left: 0;
+    width: 15%;
+    height: 4px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.slider::after{
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    border-radius: 50%;
+    right: 0;
+    top: 50%;
+    transform: translate(50%,-50%);
+}
+
+.footer{
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.corner button{
+    width: 20px;
+    height: 20px;
+}
+
+.corner button img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.center{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.center svg{
+    fill: #fff;
+    height: 23px;
+    width: 23px;
+}
+
+.center .play{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.center .play svg{
+    fill: #000;
+}
+
+@keyframes rightToLeft{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-120%);
+    }
+}
